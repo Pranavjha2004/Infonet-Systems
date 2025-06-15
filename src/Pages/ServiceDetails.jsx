@@ -2,7 +2,6 @@ import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { services } from '../Components/Services';
 import { ArrowLeftCircle, CheckCircle2 } from 'lucide-react';
-import { Helmet } from 'react-helmet-async';
 
 const ServiceDetails = () => {
   const { serviceId } = useParams();
@@ -18,16 +17,6 @@ const ServiceDetails = () => {
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-[#f5f3ff] via-[#ede9fe] to-[#e0e7ff] py-20 px-4 md:px-10 lg:px-20">
-      {/* SEO Metadata */}
-      <Helmet>
-        <title>{`${service.name} | Infonet Systems`}</title>
-        <meta name="description" content={service.desc} />
-        <meta property="og:title" content={service.name} />
-        <meta property="og:description" content={service.desc} />
-        <meta property="og:image" content={service.img} />
-        <meta property="og:url" content={`https://infonetsystems.in/services/${serviceId}`} />
-        <meta name="robots" content="index, follow" />
-      </Helmet>
 
       <article className="max-w-7xl mx-auto bg-white border border-purple-200 shadow-2xl rounded-3xl p-6 md:p-12 flex flex-col lg:flex-row items-center gap-12 transition-all duration-300">
         

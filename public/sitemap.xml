@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://infonetsystems.in/</loc>
+  </url>
+  <url>
+    <loc>https://infonetsystems.in/#services</loc>
+  </url>
+  <url>
+    <loc>https://infonetsystems.in/#about</loc>
+  </url>
+  <url>
+    <loc>https://infonetsystems.in/#contact</loc>
+  </url>
+  <url>
+    <loc>https://infonetsystems.in/services/infrastructure</loc>
+  </url>
+  <!-- Add more static routes here -->
+</urlset>

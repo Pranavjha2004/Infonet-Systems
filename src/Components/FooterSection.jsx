@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../assets/MainLogo.png';
 import { Meteors } from './Meteors';
-import { Mail, Phone, Linkedin } from 'lucide-react';
+import { Mail, Phone, LinkedIn } from 'lucide-react'; // Change Linkedin to LinkedIn
 
 const FooterSection = () => {
   return (
@@ -66,7 +66,7 @@ const FooterSection = () => {
                 rel="noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center rounded-full bg-white/10 hover:bg-[#60a5fa] transition-all duration-300 hover:scale-110"
               >
-                <Linkedin size={18} />
+                <LinkedIn size={18} /> {/* Change Linkedin to LinkedIn */}
               </a>
               <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-1 bg-black text-white text-xs rounded px-2 py-0.5 opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300">
                 LinkedIn
@@ -78,7 +78,7 @@ const FooterSection = () => {
 
       {/* Bottom Footer Note */}
       <div className="relative z-10 text-center text-xs text-gray-300 mt-6">
-        &copy; {new Date().getFullYear()} Designed By Pranav Kumar Jha. All rights reserved.
+        © {new Date().getFullYear()} Designed By Pranav Kumar Jha. All rights reserved.
       </div>
     </footer>
   );

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import emailjs from 'emailjs-com';
 import { Meteors } from './Meteors';
-import { Helmet } from 'react-helmet-async';
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -75,10 +74,6 @@ const ContactUs = () => {
 
   return (
     <div className="flex items-center justify-center bg-[#f6f5ff] px-4 py-10 sm:px-6 lg:px-8 relative overflow-hidden mt-16" id='contactUs'>
-        <Helmet>
-    <title>Infonet Systems | Reliable IT Services in Delhi NCR</title>
-    <meta name="description" content="Learn about Infonet Systems, a trusted provider of IT infrastructure and services." />
-  </Helmet>
       <div className="absolute inset-0 h-full w-full scale-[0.85] sm:scale-[0.75] transform rounded-full bg-gradient-to-r from-blue-500 to-teal-500 blur-3xl -z-10" />
 
       <div className="relative w-full max-w-4xl sm:max-w-5xl lg:max-w-6xl border border-white/30 shadow-2xl rounded-3xl p-6 sm:p-10 md:p-12 bg-white/20 backdrop-blur-[14px]">

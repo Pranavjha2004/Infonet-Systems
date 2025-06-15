@@ -1,6 +1,5 @@
 import React from 'react';
 import TestimonialCard from './TestimonialCard';
-import { Helmet } from 'react-helmet-async';
 
 const Testimonials = () => {
   return (
@@ -8,10 +7,6 @@ const Testimonials = () => {
       className="flex flex-col items-center justify-center w-full px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 mt-6 sm:mt-10 md:mt-14 lg:mt-16"
       id="testimonials"
     >
-      <Helmet>
-    <title>Infonet Systems | Reliable IT Services in Delhi NCR</title>
-  < meta name="description" content="Learn about Infonet Systems, a trusted provider of IT infrastructure and services." />
-    </Helmet>
       <h2 className="main-head text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 sm:mb-8 md:mb-10">
         Testimonials
       </h2>

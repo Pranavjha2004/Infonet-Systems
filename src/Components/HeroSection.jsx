@@ -1,5 +1,4 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import { Link as ScrollLink } from 'react-scroll';
 import { TypeAnimation } from 'react-type-animation';
 import heroImg from '../assets/illustration-2.png';
@@ -12,16 +11,6 @@ const HeroSection = () => {
       className="relative flex flex-col md:flex-row gap-6 md:gap-12 lg:gap-24 pt-24 md:pt-36 lg:pt-40 pb-10 h-full md:h-[760px] overflow-hidden container mx-auto px-4 lg:px-12"
       id="/"
     >
-      <Helmet>
-        <title>Infonet Systems | Reliable IT Services in Delhi NCR</title>
-        <meta
-          name="description"
-          content="Infonet Systems provides expert IT hardware, networking, and surveillance solutions in Delhi NCR. Trust us for enterprise-ready solutions."
-        />
-        <meta name="robots" content="index, follow" />
-        <meta name="keywords" content="IT Services Delhi, Networking, Computer Repair, CCTV Installation, Cloud Services, Infonet Systems" />
-        <link rel="canonical" href="https://infonetsystems.in/" />
-      </Helmet>
       {/* Background Lines Effect */}
       <BackgroundLines className="opacity-30" />
 

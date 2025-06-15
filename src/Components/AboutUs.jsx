@@ -1,13 +1,8 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 
 const AboutUs = () => {
   return (
     <div className="shadow-xl py-8 sm:py-12" id="aboutUs" role="region" aria-labelledby="aboutUsHeading">
-      <Helmet>
-  <title>About Us | Infonet Systems</title>
-  <meta name="description" content="Learn about Infonet Systems, a trusted provider of IT infrastructure and services." />
-  </Helmet>
       <div className="flex flex-col justify-center items-center mx-auto max-w-7xl px-4 sm:px-8 md:px-16 lg:px-28 text-center">
         <h1 id="aboutUsHeading" className="main-head text-3xl sm:text-4xl lg:text-5xl font-extrabold">
           About Us

@@ -5,7 +5,6 @@ import Storage_Availability_Img from '../assets/StorageAndAvailability_Img.png';
 import IT_Solution_Img from '../assets/IT_Solutions_Img.webp';
 import MonitoringSolutions_Img from '../assets/Monitoring_Solutions_Img.png';
 import TiltCard from './TiltCard';
-import { Helmet } from 'react-helmet-async';
 
 export const services = [
   {
@@ -79,10 +78,6 @@ export const services = [
 const Services = () => {
   return (
     <div className="flex flex-col items-center min-h-screen bg-[#f6f5ff] px-4" id="services">
-      <Helmet>
-  <title>Infonet Systems | Reliable IT Services in Delhi NCR</title>
-  <meta name="description" content="Learn about Infonet Systems, a trusted provider of IT infrastructure and services." />
-  </Helmet>
       <h1 className="text-4xl md:text-5xl mb-8 font-extrabold tracking-tight mt-16">Services</h1>
       <div className="flex flex-col gap-8 w-full max-w-5xl">
         {services.map((service, index) => (

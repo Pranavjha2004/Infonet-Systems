@@ -1,6 +1,5 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
-import { Helmet } from 'react-helmet-async';
 
 const clients = [
   'ABRD Architects',
@@ -26,10 +25,6 @@ const Clients = () => {
       className="flex flex-col justify-center items-center py-4 sm:py-6 lg:py-8 max-w-7xl mx-auto bg-[#f6f5ff] mt-16"
       id="clients"
     >
-      <Helmet>
-  <title>Our Clients | Infonet Systems</title>
-  <meta name="description" content="Learn about Infonet Systems, a trusted provider of IT infrastructure and services." />
-  </Helmet>
       <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 text-center mb-3 sm:mb-4 lg:mb-6 tracking-tight">
         Our Esteemed Clients
       </h2>
